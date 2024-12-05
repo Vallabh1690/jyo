@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>window document object</h1>
+        <h2>the url property</h2>
+        <p id="demo"></p>
+        <script>
+            let url=window.document.URL;
+            document.getElementById("demo").innerHTML = url;
+        </script>
+    </body>
+</html>
+
+
